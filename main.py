@@ -27,3 +27,4 @@ Loan term = {loan_term} months,
 Cost of using a car per month = {round(math.ceil(interest_paid) / loan_term, 2)}."""
 
 print(message)
+print(__name__)
